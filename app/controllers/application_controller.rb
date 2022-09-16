@@ -5,6 +5,7 @@ class ApplicationController < Sinatra::Base
     get "/" do
       %{
         backend repository
+      endpoints : /courses, /tournaments, players
       }
     end
     get "/courses" do
@@ -12,5 +13,15 @@ class ApplicationController < Sinatra::Base
      data.to_json
 
     end
+    get "/tournaments" do
+      data = Tournament.all
+      data.to_json
+ 
+     end
+     get "/players" do
+      data = Player.all
+      data.to_json
+ 
+     end
   
   end
