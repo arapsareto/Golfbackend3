@@ -1,4 +1,5 @@
 # Golfbackend3
 
 # Link
-https://golfbakend.herokuapp.com/
+https://golfbakend.herokuapp.com/home
+
