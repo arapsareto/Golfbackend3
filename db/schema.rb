@@ -15,7 +15,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_09_16_100616) do
     t.string "location"
     t.string "name"
   end
-
   create_table "players", force: :cascade do |t|
     t.string "name"
     t.integer "phone"
