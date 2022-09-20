@@ -11,9 +11,10 @@ gem "require_all"
 gem 'uri'
 gem "faker"
 gem 'puma'
+
 group :development do
   gem "pry"
-  gem "sqlite3"
+  # gem "sqlite3"
   gem "rerun"
 end
 group :production do

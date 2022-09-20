@@ -3,6 +3,7 @@ class Courses < ActiveRecord::Migration[7.0]
     create_table :courses do |t|
       t.string :location
       t.string :name
+      
     end
   end
 end

@@ -24,4 +24,9 @@ class ApplicationController < Sinatra::Base
  
      end
   
+     post "/courses" do
+      data = Course.create(location: params[:location],name: params[:name])
+      data.to_json
+ 
+     end
   end
